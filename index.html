@@ -4,7 +4,14 @@
  <meta charset="utf-8">
 
  <script language="JavaScript">
- 
+    function WinOpen_z1() 
+ {
+window.open("z1_kowa.html","okienko_z3","toolbar=no,directories=no,menubar=no,height=1000,width=800,top=200,left=200");
+ }
+ function WinOpen_z2() 
+ {
+window.open("z2_kowa.html","okienko_z3","toolbar=no,directories=no,menubar=no,height=1000,width=800,top=200,left=200");
+ }
  function WinOpen_z3() 
  {
 window.open("z3_kowa.html","okienko_z3","toolbar=no,directories=no,menubar=no,height=400,width=200,top=200,left=200");
@@ -23,19 +30,35 @@ function WinOpen_z6()
 }
 function WinOpen_z7()
 {
-    window.open("z7_kowa.html","okienko_z6","toolbar=no, directories=no, menubar=no, height=1000, width=900,top=200, left=450");
+    window.open("z7_kowa.html","okienko_z7","toolbar=no, directories=no, menubar=no, height=1000, width=900,top=200, left=450");
 }
 function WinOpen_z8()
 {
-    window.open("z8_kowa.html","okienko_z6","toolbar=no, directories=no, menubar=no, height=1000, width=900,top=200, left=450");
+    window.open("z8_kowa.html","okienko_z8","toolbar=no, directories=no, menubar=no, height=1000, width=900,top=200, left=450");
 }
 function WinOpen_z9()
 {
-    window.open("z9_kowa.html","okienko_z6","toolbar=no, directories=no, menubar=no, height=1000, width=900,top=200, left=450");
+    window.open("z9_kowa.html","okienko_z9","toolbar=no, directories=no, menubar=no, height=1000, width=900,top=200, left=450");
 }
 function WinOpen_z10()
 {
-    window.open("z10_kowa.html","okienko_z6","toolbar=no, directories=no, menubar=no, height=1000, width=900,top=200, left=450")
+    window.open("z10_kowa.html","okienko_z10","toolbar=no, directories=no, menubar=no, height=1000, width=900,top=200, left=450");
+}
+function WinOpen_z11()
+{
+    window.open("z11_kowa.html","okienko_z11","toolbar=no, directories=no, menubar=no, height=1000, width=900,top=200, left=450");
+}
+function WinOpen_z11KOD()
+{
+    window.open("z11_kowa-KOD.html","okienko_z11KOD","toolbar=no, directories=no, menubar=no, height=1000, width=900,top=200, left=450");
+}
+function WinOpen_z12()
+{
+    window.open("z12_kowa.html","okienko_z12","toolbar=no, directories=no, menubar=no, height=1000, width=900,top=200, left=450");
+}
+function WinOpen_z12KOD()
+{
+    window.open("z12_kowa-KOD.html","okienko_z12KOD","toolbar=no, directories=no, menubar=no, height=1000, width=900,top=200, left=450");
 }
 function okno_zamknij() 
  {
@@ -49,6 +72,8 @@ function okno_zamknij()
         document.write("szkielet zaliczeniowy javascript Adam Kowalewski klasa 3k".fontcolor("#FF0000").fontsize("8").bold())
     </script>
  <form>
+    <input type="button" name="zadanie1" value="zadanie1-Kowalewski" onclick="WinOpen_z1('z1_kowa.html')">
+    <input type="button" name="zadanie2" value="zadanie2-Kowalewski" onclick="WinOpen_z2('z2_kowa.html')">
  <input type="button" name="zadanie3" value="zadanie3-Kowalewski" onclick="WinOpen_z3('z3_kowa.html')">
  <input type="button" name="zadanie4" value="zadanie4-Kowalewski" onclick="WinOpen_z4('z4_kowa.htlm')">
  <input type="button" name="zadanie5" value="zadanie5-Kowalewski" onclick="WinOpen_z5('z5_kowa.html')">
@@ -57,6 +82,10 @@ function okno_zamknij()
  <input type="button" name="zadanie8" value="zadanie8-Kowalewski" onclick="WinOpen_z8('z8_kowa.html')">
  <input type="button" name="zadanie9" value="zadanie9-Kowalewski" onclick="WinOpen_z9('z9_kowa.html')">
  <input type="button" name="zadanie10" value="zadanie10-Kowalewski" onclick="WinOpen_z10('z10_kowa.html')">
+ <input type="button" name="zadanie11" value="zadanie11-Kowalewski" onclick="WinOpen_z11('z11_kowa.html')">
+ <input type="button" name="zadanie11-KOD" value="zadanie11-KOD-Kowalewski" onclick="WinOpen_z11KOD('z11_kowa-KOD')">
+ <input type="button" name="zadanie12" value="zadanie12-Kowalewski" onclick="WinOpen_z12('z12_kowa.html')">
+ <input type="button" name="zadanie12-KOD" value="zadanie12-KOD-Kowalewski" onclick="WinOpen_z11KOD('z12_kowa-KOD')">
  <input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
  </form>
 </body>
